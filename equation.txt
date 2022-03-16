@@ -1,0 +1,124 @@
+g20 becomes linearbn
+
+
+
+
+ln not working because some data is negative
+ln(1/re) = ln(-1)-ln(re)
+
+
+fit -alpha/x by some other mean
+
+fit 1/(-alpha/x) to 1/data ?
+1/(-alpha/x) = - x / alpha  --> this would be linear, but if data is close to zero, we cant do 1/data
+not good to invert data
+
+
+if we invert data:
+1/data is positive and negative. points close to zero get so big... but there does seem to be a straight line somewhere in there
+
+
+fit C-alhpa/x to C+data
+that means
+fit 1/(C-alhpa/x) to 1/C+data
+1/(C-alhpa/x) = x/(Cx - alpha)
+the data-term is more stable, but the equation to fit through it no longer linear
+also, the problems with the bias remain
+
+
+
+alpha/x = data
+=> alpha = x*data
+problem: this gives more power to datapoints far away from x=0 which is the opposite of whats good
+its the low-x points that feel the alpha
+
+B-alpha/x = data
+=>Bx - alpha = x*data
+das ist auch linear. Negative data-Werte sind erlaubt!
+das gibt den spñten Werten sehr viel Gewicht, oder?
+
+
+
+
+
+
+I should not filter before I analyze.
+But how do I analyze the non-growing simulations???
+Can I do without grouping??
+
+
+
+g20 depends on lambda (and a2 and b)
+
+g20 = b*a**(2*tau_eta) + (1-b)*a2**(2*tau_eta)
+mit ln(a) = lmb
+
+
+bisher Theorie, in naher Anlehnung an das paper: nur ln(a) ist  der Lyapunov-exponent, weil ùber lange Zeitskalen nur der dominiert.
+Aber wenn b und a2 in bestimmten Bereichen sind ist g20 negativ. Und dann?
+
+ln(a) > 0 gilt trotzdem per def.
+
+
+Es scheint irgendwie auch, als wñre g20 stabiler als die drei anderen Grðssen.
+Ist das so?
+
+Wenn man sagt g20 = 2*gamma*tau_eta + 1, was macht das dann mit lmb?
+
+g20 = var(2*tau_eta)/var(0) = (nach normaler def von oben) = b*a**(2*tau_eta) + (1-b)*a2**(2*tau_eta)
+weil der Nenner eh 1 wäre
+
+mit der var(t) = exp(lmb *t) definition
+g20 = B*exp(lmb*2*tau_eta) = B*ln(lmb)**(2*tau_eta) 
+
+das würde den  (1-b)-Term ignorieren...
+gerade bei den niedrigen Reynolds-Zahlen werden die Ergebnisse doll anders.
+Und niedrige Reynolds-Zahlen sind genau die interessanten...
+
+
+Also was tun?
+
+
+
+
+
+
+
+reshift-fit ohne die negativen auszuschliessen??
+
+lmb = a*(re-re_c)^delta
+ln(lmb) = lna + ln( (re-re_c)^delta ) und das kann man nicht auseinanderziehen, weil ree-re_c negativ sein kann.
+
+
+was kann man also tun?
+Wenn man die Daten auf positiv und negativ aufteilt, koennte man vielleicht etwas machen?
+f = (re-re_c)>0
+rep = re[f]
+ren = ~p
+ln(lmb) = lna + assemble(ln(  (rep - re_c)**delta), ln( ren - re_c)**delta) )
+= lna + assemble( delta*ln(rep-re_c), ln(
+... NEIN! da kann man ja grundsaetzlich schon keinen Logarithmus bilden...
+Schon von lmb nicht.
+
+Nochmal: Daten aufteilen
+den negativen Teil negieren auf beiden Seiten (?) ---> nein, lmb und re_s muessen nicht das gleiche sign haben
+
+auf beide Seiten etwas addieren?
+
+lmb + C = a*re_s^delta + C
+aber dann wird es ja nicht mehr linear.....
+
+
+a*Re^delta + C haette Ableitung: delta*a*Re^(delta-1)
+wenn delta zwischen 0 und 1 ist, dann ist die Ableitung von welcher Form? sowas wie x^(-1/2)
+passt seeehhr grob
+
+a*(Re-Rec)^delta haette Ableitung: delta*a*(Re-Rec)^(delta-1)
+-->ausgeschlossen, weil divergiert gegen Rec obwohl die Daten es nicht tun
+
+a*Re - b/Re + C haette Ableitung a + b/(re^2)
+passt grob. kann man sehen, dass re->inf zu Ableitung->a fuehrt? Das kann man ueberpruefen, und das sieht gar nicht schlecht aus!
+
+Was gibt es noch? Was hat eine erst linear fallende Ableitung, dann endlich positive?
+a*x -b*x^2
+aber wieso, wieso sollte da ein Quadrat sein und wieso
