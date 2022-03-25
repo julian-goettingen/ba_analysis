@@ -122,3 +122,126 @@ passt grob. kann man sehen, dass re->inf zu Ableitung->a fuehrt? Das kann man ue
 Was gibt es noch? Was hat eine erst linear fallende Ableitung, dann endlich positive?
 a*x -b*x^2
 aber wieso, wieso sollte da ein Quadrat sein und wieso
+
+
+Wie linearisiert man a+ b/(re^2) vernünftig?
+
+y = a + b/re^2
+y-a = b/re^2
+re^2 = b/(y-a)
+re = sqrt(b/(y-a))
+Das ist überhaupt nicht linear, aber vielleicht interessant
+
+
+ln(y-a) = ln(b) - 2*ln(re)
+setzt aber voraus, dass man a kennt
+
+
+>Außerdem sind Langzeitfolgen nie Bestandteil einer Erstzulassung. Wie auch, dann könnte man ja neue Medikamente erst nach Jahrzehnten zu lassen. 
+
+In der aktuellen Diskussion geht es ja nicht darum, dass die Impfstoffe so sicher sind dass man sie bedenkenlos zulassen und zur Verfügung stellen kann. Es geht darum sie verpflichtend zu machen. Die Anforderungen an Sicherheit und Effektivität sind dann sehr viel höher in meinen Augen.
+
+
+Wer den plötzlichen Wegfall von Kinderbetreuung als Mini-Problem sieht hat offensichtlich keine Kinder.
+
+Wer denkt, dass die ganzen Maßnahmen den Kindern nicht geschadet haben hat auch offensichtlich keine Kinder.
+
+Leute wie 
+
+
+Artikel ist archiviert: https://archive.ph/cbfAE
+
+Bei meiner Erstimpfung war im Impfzentrum jemand anders bewusstlos geworden. Wenn sich diese Person gegen die zweite Impfung entschieden hat, nehm ich  ihr das nicht übe
+
+Der Beweis des positiven Nutzen-Risiko-Verhältnisses ist für mich kein ausreichende Begründung für eine Impfpflicht.
+
+
+
+Ich verstehe das Argument, sehe es aber als ein bisschen gefährlich an. Damit könnte man auch weitgehende Verbote von ungesunden Lebensmitteln und gefährlichen Sportarten rechtfertigen. Helmpflicht auf dem Fahrrad, Verbot von Alkohol, etc.
+
+
+Es stellt auch einen Shift in unserer Kultur dar, dass eine Überlastung der
+Krankenhäuser mit Grundrechtseingriffen bei Gesunden gehandhabt wird. Die
+Grippewelle 17/18 war so eine schlimme Situation, aber Kontaktbeschränkungen
+und
+Impfpflicht waren nie in der Diskussion soweit ich mich erinnern kann.
+
+
+
+Wenn jede Entscheidung, mit der ich potentiell das Gesundheitssystem durch meine eigene Erkrankung belaste, vom Staat übernommen wird, dann ist das ein wahnsinniger Verlust von Freiheit.
+
+Ich will zum Beispiel selbst entscheiden:
+- Wie viel Sport ich mache
+- Was ich esse und wie viel
+- ob ich beim Fahrradfahren einen Helm trage
+- Wie viel ich in meiner Freizeit am Computer bin
+- Ob und wie viel Cannabis, Tabak und Alkohol ich zu mir nehme
+
+Der Gedanke, Maximierung der Gesundheit aller über die Freiheit des Individuums zu stellen wird in Juli Zehs Roman "Corpus Delicti" zu einer Distopie weitergedacht. Es ist recht kurzes Buch und ich empfehle es jedem der denkt, Kubicki und Wagenknecht seien nur Spinner die die Situation nicht ernst nehmen.
+Und Juli Zeh ist nach keiner Definition eine Schwurblerin.
+
+
+
+Sie schränkt deine Freiheit und deine Bildungsmöglichkeiten nicht ein.
+Die Politiker und die Universitätsleitung tun das.
+Sie demonstriert dafür, dass du kriegst was du willst: Präsenzuni und das Ende der Einschränkungen.
+
+Es ist ein Mythos dass alle das Ende der Online-Uni wollen. Ich kenne viele Dozenten und Studenten, die das bequem finden.
+Der Normalzustand kommt erst wieder, wenn Leute ihn einfordern.
+
+Universitäten haben extrem hohe Impfquoten, an meiner waren es letztes Jahr schon 95% oder so. Wenn man dann immer noch nicht aufmacht, selbst mit 2G nicht, dann liegt es nicht an den Ungeimpften.
+
+Ja, die Impfung ist sinnvoll.
+Aber Ungeimpfte zum Sündenbock zu machen ist nicht zielführend und widerspricht dem Wert der Toleranz.
+Außerdem ist es faktisch fragwürdig, denn der Fremdschutz durch die Impfung ist klein und kurzfristig.
+
+
+
+Die Gemeinsamkeit von deutschen Putinfanatikern und Coronaleugnern ist dass sie beide hauptsächlich als konstruiertes Feindbild in den Köpfen v 
+
+
+Wann ha
+
+was fast vollständig ohne Beispiele auskommt.
+
+Die Gemeinsamkeit von deutschen Putinfanatikern und Coronaleugnern ist dass sie beide hauptsächlich ein konstruiertes Feindbild sind und du deine Vorurteile nicht überprüfst.
+Hat Julian Reichelt jemals Corona geleugnet? Nein. Du hast ihn nur in die Schublade gepackt. 
+
+
+konstruierte Feindbilder sind die sich selbstständig gemacht haben.
+
+Er ist nur in der gleichen Schublade gelandet.
+
+Prüfungsleistungen aus anderen Studiengängen und Abschlussarbeit
+
+
+
+Antrag Zulassung zur Bachelorarbeit, ich brauche Ihre Unterschrift
+
+
+Hallo Professor Tilgner,
+
+sie hatten sich gegenüber Prof. Maarit Käpylä bereit erklärt Zweitgutachter für meine Bachelorarbeit in der Physik zu sein, die sich mit Chaos in Fluiden beschäftigt. Es ist eine Arbeit auf Basis von Simulationen.
+Jetzt will ich (endlich) anmelden. 
+Können Sie das Dokument unterschreiben, was Prof. Käpylä schon unterschrieben hat? Das vollständige Dokument hab ich nochmal beigelegt weil es dazugehört.
+Ich füge dann alles nur einmal zusammen und schicke es dem Prüfungsamt.
+
+mit freundlichen Grüßen,
+Julian Lagg
+
+Tätigkeit zeitlich sowie versicherungstechnisch unvereinbar ist.
+Darüber wollte ich Sie informieren, aber die Mail dazu hab ich dann wohl vergessen abzuschicken und sie endete als Leiche im draft-folder.
+
+Ich muss mich also zweimal entschuldigen, einmal weil ich einen Vertrag ablehne, dem ich inoffiziell schon zugestimmt hatte, und zum anderen, weil ich versäumt habe, das richtig zu kommunizieren.
+
+Ich hoffe Sie konnten trotzdem genug Tutoren in dem Fach engagieren.
+
+Mit freundlichen Grüßen,
+Julian Lagg
+
+ich möchte hiermit gerne meine Bachelorarbeit im Fach Physik anmelden.
+
+mit freundlichen Grüßen,
+Julian Lagg
+
+
