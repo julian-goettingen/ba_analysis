@@ -5,6 +5,14 @@ import sys
 if len(sys.argv) != 2:
     print("usage: push.py \"<commit msg>\"")
 
-os.system("git add *")
-os.system(f'git commit -m \"{sys.argv[1]}\"')
-os.system("git push")
+err = os.system('git add * && git commit -m \"{sys.argv[1]}\" && git push')
+if err:
+    print("NONZERO EXIT CODE: ", err)
+else:
+    print("PUSH SUCCEEDED")
+
+os.system("git status")
+
+    
+
+
